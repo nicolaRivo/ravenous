@@ -6,7 +6,7 @@ const businessArray =[
     city: 'Flavortown',
     state: 'NY',
     zipCode: '10101',
-    category: 'Italian',
+    category: 'Pizza Tonda',
     rating: 4.5,
     reviewCount: 90
     },
@@ -17,10 +17,22 @@ const businessArray =[
     city: 'Milan',
     state: 'MI',
     zipCode: '20159',
-    category: 'Italian',
+    category: 'Pizza Tonda',
     rating: 3.5,
     reviewCount: 20
+    },
+    {
+    imageSrc: 'https://spontinimilano.com/contenuti/225_box_sito.jpg',
+    name: 'Spontini',
+    address: 'Via Spontini, 4',
+    city: 'Milan',
+    state: 'MI',
+    zipCode: '20129',
+    category: 'Pizza Trancio',
+    rating: 5.0,
+    reviewCount: 200
     }
+    
 ]
 
 export default businessArray;
